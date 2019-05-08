@@ -5,18 +5,28 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.3.25",
-    "gatsby-image": "^2.0.39",
+    "@contentful/gatsby-transformer-contentful-richtext": "^13.1.0",
+    "@emotion/core": "^10.0.10",
+    "gatsby": "^2.3.26",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-emotion": "^4.0.6",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.35",
-    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-source-contentful": "^2.0.54",
+    "gatsby-source-filesystem": "^2.0.31",
+    "gatsby-source-wordpress": "^3.0.56",
+    "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
@@ -29,7 +39,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
+    "start": "WORDPRESS_PASSWORD=Wildf1r3! WORDPRESS_USER=petermckj npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },

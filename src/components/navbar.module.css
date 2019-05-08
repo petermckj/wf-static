@@ -1,0 +1,17 @@
+.navcontainer {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.navitem {
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
+    background-color: #fe00fe;
+}
+
+.navitem a {
+    color: #000;
+    text-decoration-style: none;
+}

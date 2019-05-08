@@ -1,0 +1,17 @@
+.sidenavcontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.navitem {
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
+}
+
+.navitem a {
+    color: #000;
+    text-decoration-style: none;
+}

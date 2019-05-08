@@ -1,0 +1,17 @@
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    align-items: stretch;
+}
+
+.main {
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
+    flex: 3;
+}
+
+.side {
+    flex: 1;
+}
